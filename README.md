@@ -1,6 +1,5 @@
-**Titre du projet :** "Quantum Error Correction: Simulations and Stabilizer Implementations"
+## Quantum Error Correction: Simulations and Stabilizer Implementations
 
----
 
 In this notebook, we first implement the measurement of a ZZ stabilizer. We compare the execution using a simulator and on real hardware.
 

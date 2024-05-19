@@ -1,7 +1,9 @@
-Dans ce note book, nous implémentons dans un premier temps la mésure d'un stabilizateur ZZ. Nous comparons l'execution avec un simulateur et sur du materiel reél
+**Titre du projet :** "Quantum Error Correction: Simulations and Stabilizer Implementations"
 
-Ensuite nous réalisons une simulation d'une erreur de bit flip sur un systéme à 3 qubits. Le model de bruit est assez simple. pour chaque qubit on applique une porte X avec une probabilité p 
-en d'autre terme chaque qubit à une probabilité p de flipping.
-Nous analysons comment évolut la detection d'erreur avec p.
+---
 
-EN dernier lieux nous implémentons un stabilizateur XX pour une correction d'inversion de phase
+In this notebook, we first implement the measurement of a ZZ stabilizer. We compare the execution using a simulator and on real hardware.
+
+Next, we simulate a bit flip error on a 3-qubit system. The noise model is quite simple: for each qubit, we apply an X gate with a probability p. In other words, each qubit has a probability p of flipping. We analyze how error detection evolves with p.
+
+Finally, we implement an XX stabilizer for phase flip correction.
